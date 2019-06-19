@@ -15,6 +15,11 @@
 ## How to use
 Fork the project, you can set the repository to be private and change the environment variables in the Dockerfile
 
+### Install Docker
+```
+curl -sSL https://get.docker.com/ | sh
+```
+
 ### Build image
 ```
 git clone https://github.com/kallydev/ssr-docker
