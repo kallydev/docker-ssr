@@ -17,5 +17,7 @@ EXPOSE $SSR_PORT
 
 WORKDIR shadowsocksr
 
+CMD bash bbr.sh
+
 CMD python shadowsocks/server.py -p $SSR_PORT -k $SSR_PASSWORD -m $SSR_METHOD -O $SSR_PROTOCOL -o $SSR_OBFS
 
