@@ -1,5 +1,5 @@
 <h3 align="center">SSR Docker</h3>
-<h4 align="center">Quickly deploy shadowsocksr based on docker</h4>
+<h4 align="center">基于 Docker 快速部署 SSR</h4>
 <p align="center">
   <a href="https://t.me/kittendev">
     <img src="https://img.shields.io/badge/telegram-kitten%20developer-brightgreen.svg?style=flat-square">
@@ -12,29 +12,27 @@
   </a>
 </p>
 
-**[中文文档](/README_ZH.md)**
+## 如何使用
+Fork 这个项目, 你可以将仓库设置为私有并更改 Dockerfile 文件中 SSR 的配置信息
 
-## How to use
-Fork the project, you can set the repository to be private and change the environment variables in the Dockerfile
-
-### Install Docker
+### 安装 Docker
 ```
 curl -sSL https://get.docker.com/ | sh
 ```
 
-### Build image
+### 编译镜像
 ```
 git clone https://github.com/kallydev/ssr-docker
 cd ssr-docker
 docker build -t ssr-docker .
 ```
 
-### Run image
+### 启动镜像
 ```
 docker run -d -p 443:443/tcp -p 443:443/udp -it ssr-docker
 ```
 
-## License
+## 开源协议
 ```
 Copyright 2019 KallyDev
 
