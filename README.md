@@ -1,8 +1,8 @@
 <h3 align="center">SSR Docker</h3>
 <h4 align="center">Quickly deploy shadowsocksr based on docker</h4>
 <p align="center">
-  <a href="https://t.me/kittendev">
-    <img src="https://img.shields.io/badge/telegram-kitten%20developer-brightgreen.svg?style=flat-square">
+  <a href="https://t.me/yogurtGroup">
+    <img src="https://img.shields.io/badge/telegram-yogurt%20cloud-brightgreen.svg?style=flat-square">
   </a>
   <a href="https://github.com/kallydev/ssr-docker/blob/master/LICENSE.md">
     <img src="https://img.shields.io/github/license/kallydev/ssr-docker.svg?style=flat-square">
