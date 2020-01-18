@@ -36,7 +36,7 @@ docker run -d -p 443:443/tcp -p 443:443/udp -it ssr-docker
 
 ## License
 ```
-Copyright 2019 KallyDev
+Copyright 2019-2020 KallyDev
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
